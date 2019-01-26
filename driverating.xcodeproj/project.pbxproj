@@ -9,19 +9,33 @@
 /* Begin PBXBuildFile section */
 		38A9ED6221FCF1F40075AFB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9ED6121FCF1F40075AFB5 /* AppDelegate.swift */; };
 		38A9ED6421FCF1F40075AFB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9ED6321FCF1F40075AFB5 /* ViewController.swift */; };
-		38A9ED6721FCF1F40075AFB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A9ED6521FCF1F40075AFB5 /* Main.storyboard */; };
 		38A9ED6921FCF1FD0075AFB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A9ED6821FCF1FD0075AFB5 /* Assets.xcassets */; };
-		38A9ED6C21FCF1FD0075AFB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A9ED6A21FCF1FD0075AFB5 /* LaunchScreen.storyboard */; };
+		38A9ED7421FCF2B20075AFB5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9ED7321FCF2B20075AFB5 /* HomeViewController.swift */; };
+		38A9ED7621FCF35D0075AFB5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9ED7521FCF35D0075AFB5 /* HomeView.swift */; };
+		38A9ED7821FCF7530075AFB5 /* LookUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9ED7721FCF7530075AFB5 /* LookUpView.swift */; };
+		38A9ED7A21FCF7670075AFB5 /* LookUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9ED7921FCF7670075AFB5 /* LookUpViewController.swift */; };
+		38A9ED7C21FCF86C0075AFB5 /* RateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9ED7B21FCF86C0075AFB5 /* RateView.swift */; };
+		38A9ED7E21FCF8770075AFB5 /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9ED7D21FCF8770075AFB5 /* RateViewController.swift */; };
+		38A9ED8021FCF8B00075AFB5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A9ED7F21FCF8B00075AFB5 /* Default-568h@2x.png */; };
+		38A9ED8221FD03BA0075AFB5 /* DriverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9ED8121FD03BA0075AFB5 /* DriverView.swift */; };
+		38A9ED8421FD03C50075AFB5 /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9ED8321FD03C40075AFB5 /* DriverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		38A9ED5E21FCF1F40075AFB5 /* driverating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = driverating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A9ED6121FCF1F40075AFB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38A9ED6321FCF1F40075AFB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		38A9ED6621FCF1F40075AFB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38A9ED6821FCF1FD0075AFB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		38A9ED6B21FCF1FD0075AFB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38A9ED6D21FCF1FD0075AFB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38A9ED7321FCF2B20075AFB5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		38A9ED7521FCF35D0075AFB5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		38A9ED7721FCF7530075AFB5 /* LookUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookUpView.swift; sourceTree = "<group>"; };
+		38A9ED7921FCF7670075AFB5 /* LookUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookUpViewController.swift; sourceTree = "<group>"; };
+		38A9ED7B21FCF86C0075AFB5 /* RateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateView.swift; sourceTree = "<group>"; };
+		38A9ED7D21FCF8770075AFB5 /* RateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
+		38A9ED7F21FCF8B00075AFB5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		38A9ED8121FD03BA0075AFB5 /* DriverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverView.swift; sourceTree = "<group>"; };
+		38A9ED8321FD03C40075AFB5 /* DriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +52,7 @@
 		38A9ED5521FCF1F30075AFB5 = {
 			isa = PBXGroup;
 			children = (
+				38A9ED7F21FCF8B00075AFB5 /* Default-568h@2x.png */,
 				38A9ED6021FCF1F40075AFB5 /* driverating */,
 				38A9ED5F21FCF1F40075AFB5 /* Products */,
 			);
@@ -56,10 +71,16 @@
 			children = (
 				38A9ED6121FCF1F40075AFB5 /* AppDelegate.swift */,
 				38A9ED6321FCF1F40075AFB5 /* ViewController.swift */,
-				38A9ED6521FCF1F40075AFB5 /* Main.storyboard */,
 				38A9ED6821FCF1FD0075AFB5 /* Assets.xcassets */,
-				38A9ED6A21FCF1FD0075AFB5 /* LaunchScreen.storyboard */,
 				38A9ED6D21FCF1FD0075AFB5 /* Info.plist */,
+				38A9ED7321FCF2B20075AFB5 /* HomeViewController.swift */,
+				38A9ED7521FCF35D0075AFB5 /* HomeView.swift */,
+				38A9ED7721FCF7530075AFB5 /* LookUpView.swift */,
+				38A9ED7921FCF7670075AFB5 /* LookUpViewController.swift */,
+				38A9ED7B21FCF86C0075AFB5 /* RateView.swift */,
+				38A9ED7D21FCF8770075AFB5 /* RateViewController.swift */,
+				38A9ED8121FD03BA0075AFB5 /* DriverView.swift */,
+				38A9ED8321FD03C40075AFB5 /* DriverViewController.swift */,
 			);
 			path = driverating;
 			sourceTree = "<group>";
@@ -122,9 +143,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38A9ED6C21FCF1FD0075AFB5 /* LaunchScreen.storyboard in Resources */,
 				38A9ED6921FCF1FD0075AFB5 /* Assets.xcassets in Resources */,
-				38A9ED6721FCF1F40075AFB5 /* Main.storyboard in Resources */,
+				38A9ED8021FCF8B00075AFB5 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,30 +156,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				38A9ED6421FCF1F40075AFB5 /* ViewController.swift in Sources */,
+				38A9ED8221FD03BA0075AFB5 /* DriverView.swift in Sources */,
+				38A9ED7E21FCF8770075AFB5 /* RateViewController.swift in Sources */,
+				38A9ED7821FCF7530075AFB5 /* LookUpView.swift in Sources */,
+				38A9ED7621FCF35D0075AFB5 /* HomeView.swift in Sources */,
 				38A9ED6221FCF1F40075AFB5 /* AppDelegate.swift in Sources */,
+				38A9ED8421FD03C50075AFB5 /* DriverViewController.swift in Sources */,
+				38A9ED7A21FCF7670075AFB5 /* LookUpViewController.swift in Sources */,
+				38A9ED7421FCF2B20075AFB5 /* HomeViewController.swift in Sources */,
+				38A9ED7C21FCF86C0075AFB5 /* RateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		38A9ED6521FCF1F40075AFB5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38A9ED6621FCF1F40075AFB5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		38A9ED6A21FCF1FD0075AFB5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38A9ED6B21FCF1FD0075AFB5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		38A9ED6E21FCF1FD0075AFB5 /* Debug */ = {
