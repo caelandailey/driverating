@@ -12,7 +12,7 @@ import UIKit
 class LookUpViewController: UIViewController, UINavigationControllerDelegate, LookUpViewDelegate{
     
     func search(plate:String) {
-        navigationController?.pushViewController(RateViewController(plate: plate), animated: true)
+        navigationController?.pushViewController(DriverViewController(plate: plate), animated: true)
     }
     
     

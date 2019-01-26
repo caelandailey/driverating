@@ -12,7 +12,7 @@ import UIKit
 
 class RateViewController: UIViewController {
     
-    var plate: String = ""
+
     
     private var viewHolder: RateView {
         return view as! RateView
@@ -22,16 +22,11 @@ class RateViewController: UIViewController {
     override func loadView() {
         view = RateView()
     }
-    
-    convenience init(plate: String) {
-        self.init(nibName:nil, bundle:nil)
-        self.plate = plate
-    }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print(plate)
+
     }
     
 }
